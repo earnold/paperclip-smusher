@@ -1,5 +1,5 @@
 module Paperclip
-  class Thumbnail < Processor
+  class CrushThumbnail < Thumbnail
 
     # Performs the conversion of the +file+ into a thumbnail. Returns the Tempfile
     # that contains the new image.
